@@ -1,0 +1,85 @@
+/* Meadia Queries */
+
+@media only screen and (max-width: 480px) {
+    .slideshow img{
+        height:250px !important;
+        width: auto; /*maintain aspect ratio*/
+    }    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+.container{
+    overflow: auto;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+.slideshow img{
+    height:650px;
+    width: 100%; /*maintain aspect ratio*/
+}
+.aboutUs{
+    height: 500px;
+}
+.headingLine{
+    display: block;
+    width: 15%;
+    height: 3px;
+    background: #83C5BE;
+    margin: 20px auto;
+}
+
+.card-img-top{
+    height: 250px;
+}
+
+#footer{
+    background-color: #83C5BE;
+    position: relative;
+    height: 5rem;
+    bottom: 0;
+    width: 100%; 
+
+    clear: both;
+}
+.carousel-item:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:rgba(0,0,0,0.6);
+}
+.aboutUsImage{
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.red-star{
+    color: red;
+    height: 1px;
+}
